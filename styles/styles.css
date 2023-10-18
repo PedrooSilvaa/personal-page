@@ -3,7 +3,8 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    background-color:white;
+    background-color:black;
+
 }
 
 @media (max-width: 768px) {
@@ -80,10 +81,13 @@ main {
     width: 100%;
     padding: 20px 0px;
     color: white;
+    border-style: inset;
+    border-right-width: 2px;
+    border-color: white;
 }
 
 #bloco_ola h1, h3{
-    color: black;
+    color: white;
     font-size: 30px;
     display: flex;
     justify-content: left;
@@ -92,8 +96,8 @@ main {
 }
 
 #bloco_ola p, span{
-background-color: white;
-color: black;
+background-color: black;
+color: white;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: 500;
 }
@@ -115,6 +119,9 @@ font-weight: 500;
     height: fit-content;
     width: 100%;
     padding: 20px 0px;
+    border-style: inset;
+    border-right-width: 2px;
+    border-color: white;
 }
 
 #bloco_sobre h1, h3{
@@ -171,27 +178,30 @@ font-weight: 500;
 }
 
 #bloco_habilidades{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     display: block;
     justify-content: space-around;
     align-items: center;
     height: fit-content;
     width: 100%;
     padding: 20px 0px;
+    border-style: inset;
+    border-right-width: 2px;
+    border-color: white;
 }
 
 #bloco_habilidades h3 {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
 
 #nav_habilidades  {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -215,6 +225,12 @@ font-weight: 500;
     padding: 20px 0px;
 }
 
+
+#bloco_projetos{
+    border-style: inset;
+    border-right-width: 2px;
+    border-color: white;
+}
 #bloco_projetos img {
     width: 250px;
     height: 150px
@@ -245,7 +261,11 @@ font-weight: 500;
 footer {
     height: fit-content;
     padding: 20px 0px;
+    border-style: inset;
+    border-right-width: 2px;
+    border-color: white;
 }
+
 
 #nav_contatos {
     display: block;
@@ -256,16 +276,16 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 50px;
 }
 #nav_contatos #parte2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 50px;
 }
 
