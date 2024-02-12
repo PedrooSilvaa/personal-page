@@ -31,3 +31,15 @@
     width: 250px;
     height: 150px;
 }
+
+@media(max-width: 800px){
+
+    #bloco_habilidades, #bloco_projetos, footer{
+        width: 100%;
+    }
+    #nav_habilidades img {
+        width: 60px;
+        height: 150px; 
+    }
+    
+}

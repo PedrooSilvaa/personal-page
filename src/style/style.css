@@ -225,7 +225,6 @@ font-weight: 500;
     padding: 20px 0px;
 }
 
-
 #bloco_projetos{
     border-style: inset;
     border-right-width: 2px;
@@ -341,4 +340,92 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media(max-width: 800px){
+
+    #bloco_habilidades, #bloco_projetos, footer{
+        width: 100%;
+    }
+    #nav_habilidades img {
+        width: 60px;
+        height: 150px;
+    }
+
+    .menu nav ul{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu li a {
+        height: 30px;
+        padding: 2px;
+        width: 10px;
+        font-size: 10px;
+    }
+
+    #bloco_ola h1{
+        font-size: 11px;
+        width: 200px;
+    }
+    #bloco_ola p {
+        font-size: 10px;
+        width: 150px;
+        flex-wrap: wrap;
+    }
+
+    #bloco_ola img {
+        width: 100px;
+        height: 150px;
+    }
+
+    i {
+        padding-left: 3px;
+    }
+
+    #nav_ola {
+        width: 100px;
+        flex-wrap: wrap;
+    }
+    #bloco_sobre h1, h3{
+        font-size: 20px;
+    }
+
+    #bloco_sobre p {
+        font-size: 10px;
+        width: 175px;
+    }
+
+    #bloco_sobre img {
+        margin-right: 15px;
+        width: 80px;
+        height: 150px;
+    }
+    
+    #nav_contatos #parte1 i {
+        font-size: 30px;
+    }
+    
+    #nav_contatos #parte2 i {
+        font-size: 30px;
+
+    }
+    
+    #nav_contatos #parte1 p {
+        font-size: 10px;
+    }
+
+    #nav_contatos #parte2 p {
+        font-size: 10px;
+    }
+    #nav_contatos #parte1 a:hover, #parte2 a:hover {
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 0;
+        width: 50px;
+    }
+
 }
